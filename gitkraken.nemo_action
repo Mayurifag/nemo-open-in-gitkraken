@@ -1,0 +1,11 @@
+[Nemo Action]
+
+Active=true
+Name=Open in GitKraken
+Comment=Opens current git repository on GitKraken
+Exec=sh -c 'gitkraken -p "$(cd %F && git rev-parse --show-toplevel)"'
+Icon-Name=gitkraken
+Selection=none
+Extensions=any;
+Quote=double
+Dependencies=gitkraken;
