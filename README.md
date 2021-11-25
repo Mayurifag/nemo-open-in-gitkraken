@@ -23,11 +23,6 @@ Or, clone this repository and run:
 sudo cp nemo-open-in-gitkraken/gitkraken.nemo_action ~/.local/share/nemo/actions
 ```
 
-## Known bugs
-
-- Menu action won't work if gitkraken is already open. Make PR if you know, how
-  to hotfix this, I'm too lazy to fix it myself.
-
 ## Inspired
 
 - <https://github.com/mhsattarian/nemo-open-in-vscode>
